@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e7661f8490b5a45a69a42e6dd13ebc, type: 3}
+  m_Name: Car 2
+  m_EditorClassIdentifier: 
+  id: 1
+  name: Convoy Car Elvis
+  speed: 93
+  acceleration: 45
+  strength: 35
+  price: 750
+  unlockLvl: 15
+  model: {fileID: 5060807867437185520, guid: 12a793914d81beb42af0fde2b8337e6a, type: 3}
+  playablePrefab: {fileID: 3028600798557092926, guid: 80d2e31af5f568347b3677c5e865d3e7, type: 3}

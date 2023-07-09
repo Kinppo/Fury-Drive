@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e7661f8490b5a45a69a42e6dd13ebc, type: 3}
+  m_Name: Car 1
+  m_EditorClassIdentifier: 
+  id: 0
+  name: Rat Rod Chevy
+  speed: 90
+  acceleration: 41.5
+  strength: 29
+  price: 0
+  unlockLvl: 0
+  model: {fileID: 2387480852242412637, guid: 7542373e3f9f2d24fa5a8a8dec774748, type: 3}
+  playablePrefab: {fileID: 4143829193695506258, guid: 390432abfd8958a468ed8c4f03d1b00d, type: 3}

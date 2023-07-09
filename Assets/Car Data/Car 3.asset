@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e7661f8490b5a45a69a42e6dd13ebc, type: 3}
+  m_Name: Car 3
+  m_EditorClassIdentifier: 
+  id: 2
+  name: Jag Flamer VII
+  speed: 98
+  acceleration: 52.5
+  strength: 42
+  price: 1600
+  unlockLvl: 32
+  model: {fileID: 7772399677254217562, guid: d8ea6eff2cdfd464d804f6c66de063a1, type: 3}
+  playablePrefab: {fileID: 7869716746453431962, guid: 9a0dee8341e38cc4d811ca078d2ae83d, type: 3}

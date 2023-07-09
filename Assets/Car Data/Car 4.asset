@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e7661f8490b5a45a69a42e6dd13ebc, type: 3}
+  m_Name: Car 4
+  m_EditorClassIdentifier: 
+  id: 3
+  name: Pursuit Special 79
+  speed: 105
+  acceleration: 60
+  strength: 50
+  price: 2500
+  unlockLvl: 60
+  model: {fileID: 5681559705892740727, guid: 941374a1e974db848abc8ba2d3c9ac06, type: 3}
+  playablePrefab: {fileID: 3339206668495648166, guid: 105be85838a167842a2dab954892bd59, type: 3}
