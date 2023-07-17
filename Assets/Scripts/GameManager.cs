@@ -21,13 +21,15 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; protected set; }
     public static GameState gameState = GameState.Play;
-    public int level;
     public Transform camPoint;
     public Transform startPosition;
     public float distance = 1.6f;
     public int killedEnemies;
     public List<GameObject> objects = new List<GameObject>();
     public List<CarData> carsData = new List<CarData>();
+
+    [HideInInspector] public int level;
+    [HideInInspector] public bool messageHasShown;
 
     [HideInInspector] public List<Car> cars = new List<Car>();
     [HideInInspector] public Player player;
@@ -38,9 +40,10 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         level = PlayerPrefs.GetInt("level", 1);
+        messageHasShown = PlayerPrefs.GetInt("message", 0) == 1;
         var carId = PlayerPrefs.GetInt("carId", 0);
         player = Instantiate(carsData[carId].playablePrefab, startPosition.position, startPosition.rotation);
-        //TinySauce.OnGameStarted(level.ToString());
+        TinySauce.OnGameStarted(level.ToString());
     }
 
     void Update()
@@ -56,10 +59,10 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < objects.Count; i++)
         {
-            yield return new WaitForSeconds(i*0.01f);
+            yield return new WaitForSeconds(i * 0.01f);
             Instantiate(objects[i]);
         }
-        
+
         yield return null;
     }
 
@@ -114,7 +117,7 @@ public class GameManager : MonoBehaviour
         AudioManager.Instance.ChangeEngineVolume(true);
         AudioManager.Instance.engineSoundSource.mute = true;
         AudioManager.Instance.soundEffectSource.mute = true;
-        //TinySauce.OnGameFinished(true, 1, level.ToString());
+        TinySauce.OnGameFinished(true, 1, level.ToString());
     }
 
     public void Lose()
@@ -122,7 +125,7 @@ public class GameManager : MonoBehaviour
         AudioManager.Instance.ChangeEngineVolume(true);
         UIManager.Instance.FillLoseData();
         UIManager.Instance.SetPanel(GameState.Lose);
-        //TinySauce.OnGameFinished(false, 1, level.ToString());
+        TinySauce.OnGameFinished(false, 1, level.ToString());
     }
 
     public void Play()

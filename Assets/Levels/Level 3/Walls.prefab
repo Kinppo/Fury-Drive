@@ -204,12 +204,12 @@ GameObject:
   - component: {fileID: 1188174591215685836}
   - component: {fileID: 4006454582432408582}
   - component: {fileID: 59657258806748515}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608712727781225
 Transform:
@@ -300,12 +300,12 @@ GameObject:
   - component: {fileID: 1188174590984711113}
   - component: {fileID: 4006454582134251267}
   - component: {fileID: 59657258500660838}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608712430347372
 Transform:
@@ -396,12 +396,12 @@ GameObject:
   - component: {fileID: 1188174591840683070}
   - component: {fileID: 4006454581983703284}
   - component: {fileID: 59657258181751185}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608713218427803
 Transform:
@@ -492,12 +492,12 @@ GameObject:
   - component: {fileID: 1188174591852265440}
   - component: {fileID: 4006454581925989162}
   - component: {fileID: 59657258170239567}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608713162895429
 Transform:
@@ -588,12 +588,12 @@ GameObject:
   - component: {fileID: 1188174591657394564}
   - component: {fileID: 4006454582001710414}
   - component: {fileID: 59657258365039659}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608713103953441
 Transform:
@@ -684,12 +684,12 @@ GameObject:
   - component: {fileID: 1188174590255096140}
   - component: {fileID: 4006454583552120198}
   - component: {fileID: 59657257619657955}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608713713610473
 Transform:
@@ -780,12 +780,12 @@ GameObject:
   - component: {fileID: 1188174589990572003}
   - component: {fileID: 4006454583287642921}
   - component: {fileID: 59657257347316300}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608713449603142
 Transform:
@@ -876,12 +876,12 @@ GameObject:
   - component: {fileID: 1188174590745340829}
   - component: {fileID: 4006454583035797335}
   - component: {fileID: 59657257129352754}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608714271876152
 Transform:
@@ -972,12 +972,12 @@ GameObject:
   - component: {fileID: 1188174590633770676}
   - component: {fileID: 4006454583190489726}
   - component: {fileID: 59657257241250587}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608714159124753
 Transform:
@@ -1068,12 +1068,12 @@ GameObject:
   - component: {fileID: 1188174590559896620}
   - component: {fileID: 4006454583116640486}
   - component: {fileID: 59657257315119491}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608714220391305
 Transform:
@@ -1164,12 +1164,12 @@ GameObject:
   - component: {fileID: 1188174590585689840}
   - component: {fileID: 4006454583077478970}
   - component: {fileID: 59657257288999775}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608714179860821
 Transform:
@@ -1260,12 +1260,12 @@ GameObject:
   - component: {fileID: 1188174590373636912}
   - component: {fileID: 4006454582863290362}
   - component: {fileID: 59657256964251295}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2869608713832014997
 Transform:
@@ -3182,7 +3182,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4594449064103582482
 Transform:

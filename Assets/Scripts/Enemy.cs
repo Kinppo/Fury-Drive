@@ -49,8 +49,7 @@ public class Enemy : MonoBehaviour
             _initialCrashPosition = transform.position + new Vector3(0, yOffset, 0);
             _crashTargetPosition = transform.position + Vector3.up * crashUpMovement;
             isDead = true;
-            if (Player.Instance.attackingFighter != null)
-                Player.Instance.attackingFighter.KillFighter();
+            
             AudioManager.Instance.PlaySoundEffect(AudioManager.Instance.explosion);
             GameManager.Instance.killedEnemies++;
         }
@@ -103,7 +102,7 @@ public class Enemy : MonoBehaviour
             {
                 _backTime = 0f;
                 _isMovingToGround = false;
-                Destroy(gameObject, 0.7f);
+                Destroy(gameObject, 0.5f);
             }
 
             _backTime += Time.deltaTime;

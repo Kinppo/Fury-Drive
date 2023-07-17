@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa11ec82e9746928e211e7f096812ca, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameAnalyticsIosGameKey: 
+  gameAnalyticsIosSecretKey: 
+  gameAnalyticsAndroidGameKey: 0452ea438f2d6a91f25749e746cfbf62
+  gameAnalyticsAndroidSecretKey: bfafcc69ba5903276e8fdb83f722712cec183486
+  facebookAppId: 1345072156408297
+  facebookClientToken: b31202e55e18b8ecce0abd6b845057e7
+  adjustIOSToken: yk0v1rdpaww0
+  adjustAndroidToken: yk0v1rdpaww0
+  EditorIdfa: c1cd5b59-5450-4b4e-9add-5e8e0835b971
+  UseRemoteConfig: 0
+  UseVoodooAnalytics: 1
+  companyName: Oxtra Games
+  privacyPolicyURL: https://deevlap.netlify.app/privacy
+  developerContactEmail: macmouaad@gmail.com

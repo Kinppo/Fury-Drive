@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5530799053004563968
 Transform:
@@ -42,6 +42,22 @@ PrefabInstance:
     - target: {fileID: 1955493797859249923, guid: 42a193488ae748e489aebc6c6a72eefe, type: 3}
       propertyPath: m_Name
       value: Road_Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955493797859249925, guid: 42a193488ae748e489aebc6c6a72eefe, type: 3}
+      propertyPath: m_Size.x
+      value: 59.103115
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955493797859249925, guid: 42a193488ae748e489aebc6c6a72eefe, type: 3}
+      propertyPath: m_Size.z
+      value: 3.1826966
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955493797859249925, guid: 42a193488ae748e489aebc6c6a72eefe, type: 3}
+      propertyPath: m_Center.x
+      value: 0.96008784
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955493797859249925, guid: 42a193488ae748e489aebc6c6a72eefe, type: 3}
+      propertyPath: m_Center.z
+      value: -0.4324693
       objectReference: {fileID: 0}
     - target: {fileID: 1955493797859249926, guid: 42a193488ae748e489aebc6c6a72eefe, type: 3}
       propertyPath: m_RootOrder
@@ -164,6 +180,10 @@ PrefabInstance:
     - target: {fileID: 4018402863186935706, guid: b453fd17d254ba34ba19863a57041a21, type: 3}
       propertyPath: m_Name
       value: Road Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018402863186935706, guid: b453fd17d254ba34ba19863a57041a21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b453fd17d254ba34ba19863a57041a21, type: 3}

@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &423295152923372051
 Transform:
@@ -93,6 +93,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus_v1_8
       objectReference: {fileID: 0}
+    - target: {fileID: 526055449177138242, guid: b68a47a53e5bb5f498af5523737efd6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b68a47a53e5bb5f498af5523737efd6e, type: 3}
 --- !u!4 &527303375575789199 stripped
@@ -155,6 +159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus_v1_7
       objectReference: {fileID: 0}
+    - target: {fileID: 5432066323510521880, guid: d3add715013ebd34892d6b09ee598d32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3add715013ebd34892d6b09ee598d32, type: 3}
 --- !u!4 &5440107071012891162 stripped
@@ -172,6 +180,10 @@ PrefabInstance:
     - target: {fileID: 6251559274652846991, guid: 4f1038a0684e6ad45afa30399f9aef77, type: 3}
       propertyPath: m_Name
       value: Cactus_v1_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251559274652846991, guid: 4f1038a0684e6ad45afa30399f9aef77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6251559274652948399, guid: 4f1038a0684e6ad45afa30399f9aef77, type: 3}
       propertyPath: m_RootOrder
@@ -279,6 +291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus_v1_2
       objectReference: {fileID: 0}
+    - target: {fileID: 8362519420276778638, guid: 67b91cb1700cb194d9221e650dc81bff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67b91cb1700cb194d9221e650dc81bff, type: 3}
 --- !u!4 &8363206634012993745 stripped
@@ -340,6 +356,10 @@ PrefabInstance:
     - target: {fileID: 8362519420276778638, guid: 67b91cb1700cb194d9221e650dc81bff, type: 3}
       propertyPath: m_Name
       value: Cactus_v1_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362519420276778638, guid: 67b91cb1700cb194d9221e650dc81bff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67b91cb1700cb194d9221e650dc81bff, type: 3}
@@ -403,6 +423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus_v1_4
       objectReference: {fileID: 0}
+    - target: {fileID: 526055449177138242, guid: b68a47a53e5bb5f498af5523737efd6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b68a47a53e5bb5f498af5523737efd6e, type: 3}
 --- !u!4 &527303374461400191 stripped
@@ -465,6 +489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus_v1_3
       objectReference: {fileID: 0}
+    - target: {fileID: 5432066323510521880, guid: d3add715013ebd34892d6b09ee598d32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3add715013ebd34892d6b09ee598d32, type: 3}
 --- !u!4 &5440107070134409339 stripped
@@ -482,6 +510,10 @@ PrefabInstance:
     - target: {fileID: 6251559274652846991, guid: 4f1038a0684e6ad45afa30399f9aef77, type: 3}
       propertyPath: m_Name
       value: Cactus_v1_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251559274652846991, guid: 4f1038a0684e6ad45afa30399f9aef77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6251559274652948399, guid: 4f1038a0684e6ad45afa30399f9aef77, type: 3}
       propertyPath: m_RootOrder

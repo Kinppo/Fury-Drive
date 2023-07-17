@@ -58,8 +58,10 @@ public class Fighter : MonoBehaviour
         if (Vector3.Distance(transform.position, Player.Instance.enemyLandPoint.position) < 0.1f)
         {
             isJumping = false;
+            UIManager.Instance.ShowMessage();
             ChangeAnimation(EnemyFighterState.Attacking);
             StartCoroutine("UpdateHitReady");
+            StartCoroutine(Player.Instance.ReceiveDamage());
         }
     }
 
@@ -83,6 +85,7 @@ public class Fighter : MonoBehaviour
         Destroy(gameObject, 1);
         Player.Instance.isUnderAttack = false;
         Player.Instance.attackingFighter = null;
+        UIManager.Instance.HideMessage();
     }
 
     private IEnumerator UpdateHitReady()
@@ -108,7 +111,6 @@ public class Fighter : MonoBehaviour
             case EnemyFighterState.Attacking:
                 para1 = -1;
                 para2 = 1;
-                StartCoroutine(Player.Instance.ReceiveDamage());
                 break;
             case EnemyFighterState.Dead:
                 para1 = -1;

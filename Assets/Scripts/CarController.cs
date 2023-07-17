@@ -36,8 +36,8 @@ public class CarController : MonoBehaviour
         if (car.carState != CarState.OnRoad) return;
         if (!isAuto)
         {
-            //JoystickControl();
-            KeyboardControl();
+            JoystickControl();
+            //KeyboardControl();
             //SwipeControl();
         }
 
@@ -85,8 +85,12 @@ public class CarController : MonoBehaviour
     {
         if (_joystick.Horizontal != 0 && _joystick.Vertical == 0)
             SetInputs(1, _joystick.Horizontal);
+        else if (_joystick.Vertical > 0)
+            SetInputs(1, _joystick.Horizontal);
+        else if (_joystick.Vertical <= -0.95f)
+            SetInputs(-1, _joystick.Horizontal);
         else
-            SetInputs(_joystick.Vertical, _joystick.Horizontal);
+            SetInputs(0, _joystick.Horizontal);
     }
 
     private void KeyboardControl()

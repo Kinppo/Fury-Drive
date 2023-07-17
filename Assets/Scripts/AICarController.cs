@@ -23,11 +23,15 @@ public class AICarController : MonoBehaviour
     {
         _dstTravelled += speed * Time.deltaTime;
         destination = pathCreator.path.GetPointAtDistance(_dstTravelled, EndOfPathInstruction.Stop) + pathOffset;
-
+    
         if (_dstTravelled < 0)
-            destination += transform.eulerAngles.y == 0
-                ? new Vector3(0, 0, _dstTravelled)
-                : new Vector3(_dstTravelled, 0, 0);
+            if (transform.eulerAngles.y == 0)
+                destination += new Vector3(0, 0, _dstTravelled);
+            else if (transform.eulerAngles.y == 180)
+                destination += new Vector3(0, 0, -_dstTravelled);
+            else if (transform.eulerAngles.y == 270)
+                destination += new Vector3(-_dstTravelled, 0, 0);
+            else destination += new Vector3(_dstTravelled, 0, 0);
 
         currentSpeed = (destination - transform.position).normalized * speed;
         transform.position = destination;

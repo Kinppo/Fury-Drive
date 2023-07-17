@@ -52,11 +52,13 @@ public class UIManager : MonoBehaviour
     public GameObject go;
     public DOTweenAnimation fadeAnim;
     public CanvasGroup startCanvasGroup;
+    public GameObject message;
 
     private int level;
     private int coins;
     private int page;
     private bool animateBloodScreen;
+    private bool messageHasShowen;
     private float targetAlpha = 1;
     private int step;
     private Tween fadeTween;
@@ -64,7 +66,7 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        level = PlayerPrefs.GetInt("level", 1);
+        level = GameManager.Instance.level;
         coins = PlayerPrefs.GetInt("coins", 0);
         page = level / 18;
         if (level % 18 == 0) page -= 1;
@@ -79,6 +81,18 @@ public class UIManager : MonoBehaviour
     private void Update()
     {
         if (animateBloodScreen) UpdateBloodOnScreenEffect();
+    }
+
+    public void ShowMessage()
+    {
+        if (level != 1 && GameManager.Instance.messageHasShown) return;
+        PlayerPrefs.SetInt("message", 1);
+        message.SetActive(true);
+    }
+
+    public void HideMessage()
+    {
+        message.SetActive(false);
     }
 
     private void SetGainedStars()
@@ -166,6 +180,7 @@ public class UIManager : MonoBehaviour
         winKm.text = d + "km";
         winCoins.text = c.ToString();
         winScore.text = s.ToString();
+        PlayerPrefs.SetInt("coins", coins + (int) c);
     }
 
     public void FillLoseData()

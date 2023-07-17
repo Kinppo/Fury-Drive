@@ -68,7 +68,6 @@ public class CarsManager : MonoBehaviour
     {
         if (selectedCarData.price <= coins && selectedCarData.unlockLvl <= stars)
         {
-            print("upgrade");
             audioManager.Vibrate();
             audioManager.PlaySoundEffect(audioManager.click);
             coins -= selectedCarData.price;
@@ -167,8 +166,7 @@ public class CarsManager : MonoBehaviour
     private void SetGainedStars()
     {
         var l = level - 1;
-        //stars = l * 3;
-        stars = 200;
+        stars = l * 3;
         starsTxt.text = stars + " <#60594f>/300";
     }
 
@@ -215,4 +213,20 @@ public class CarsManager : MonoBehaviour
         vibroToggle.SetState(vibro);
         audioManager.InitializeStates(music, sound, vibro);
     }
+
+// #if UNITY_EDITOR
+//
+//     [CustomEditor(typeof(NewPathCreator))]
+//     public class NewPathCreatorEditor : Editor
+//     {
+//         public override void OnInspectorGUI()
+//         {
+//             base.OnInspectorGUI();
+//             var creator = (NewPathCreator) target;
+//
+//             if (GUILayout.Button("Press Me"))
+//                 creator.GeneratePath();
+//         }
+//     }
+// #endif
 }

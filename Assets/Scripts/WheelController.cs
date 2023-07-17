@@ -27,7 +27,7 @@ public class WheelController : MonoBehaviour
             anim.SetBool("toRight", false);
             anim.SetBool("toLeft", true);
         }
-        else if (horizontalAxis == 0)
+        else if (horizontalAxis <= 0.25 || horizontalAxis >= -0.25)
         {
             anim.SetBool("toRight", false);
             anim.SetBool("toLeft", false);

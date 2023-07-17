@@ -125,7 +125,7 @@ public class Player : MonoBehaviour
 
         return enemies;
     }
- 
+
     private bool IsTargetInFront(Transform target)
     {
         var direction = transform.position - target.position;
